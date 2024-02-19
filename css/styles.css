@@ -149,7 +149,6 @@ margin-left: auto;
     margin-right: auto;
     max-width: 496px;
     margin-bottom: 24px;
-
 }
 
 
@@ -265,9 +264,7 @@ margin-left: auto;
     gap: 24px;
     padding-left: 15px;
     padding-right: auto;
-    padding: 0px 0px 32px 0px;
-    
-        
+    padding: 0px 0px 32px 0px;   
 }
 
 .team-members-div-card {
@@ -312,19 +309,18 @@ margin-left: auto;
     color: #2e2f42;
     margin-bottom: 72px;
 }
+
 .portfolio-list {
     display: flex;
     flex-wrap:wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
-    
-    
 }
+
 .portfolio-item {
     background-color: #ffffff;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    width: calc((100%-48px) / 3);  
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-div-card {
@@ -332,6 +328,7 @@ margin-left: auto;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+
 .released-product {
     font-weight: 500;
     font-size: 20px;
@@ -340,7 +337,6 @@ margin-left: auto;
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: start;
-    
 }
 
 .product-direction {
@@ -358,10 +354,12 @@ margin-left: auto;
     background-color: #2e2f42;
     padding: 100px 0;
 }
+
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
 }
+
 .logo-part-ending {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -371,6 +369,7 @@ margin-left: auto;
         text-transform: uppercase;
         color: #f4f4fd;
 }
+
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
