@@ -15,7 +15,9 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-
+.img {
+    display: block;
+}
 a {
     text-decoration: none;
 }
@@ -132,6 +134,7 @@ margin-left: auto;
 
 .hero {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .main-title {
@@ -166,6 +169,10 @@ margin-left: auto;
     display: block;
     margin-bottom: 188px;
     margin-top: 24px;
+    min-width: 169px;
+    height: 56px;
+    bottom: none;
+    border-radius: 4px;
 }
 
 .order-serv-btn:hover,
@@ -210,9 +217,12 @@ margin-left: auto;
 .banefits-list {
     display: flex;
     align-items: center;
-    column-gap: 24px;
-    width: calc((100%-72px) / 4);
+    gap: 24px;
     
+    
+}
+.banefits-item-first {
+    width: calc((100%-72px) / 4);
 }
 .banefits-subtitle {
     font-weight: 500;
@@ -255,16 +265,21 @@ margin-left: auto;
     gap: 24px;
     padding-left: 15px;
     padding-right: auto;
-    border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    width: calc((100%-72px) / 4);
+    
         
+}
+.team-members-portrait-item-first{
+    width: calc((100%-72px) / 4);
+    border-radius: 0 0 4px 4px;
+}
+.team-members-div-card {
+    padding: 32px 0;
+
 }
 .team-members-portrait-item {
     background-color: #ffffff;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        
-
 }
 
 .team-members-name {
@@ -275,6 +290,7 @@ margin-left: auto;
         text-align: center;
         color: #2e2f42;
         margin-top: 32px;
+        margin-bottom: 8px;
 }
 
 .work-direction {
@@ -302,7 +318,7 @@ margin-left: auto;
     flex-wrap:wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100%-48px) / 3);
+    
     
     
 }
@@ -310,7 +326,14 @@ margin-left: auto;
     background-color: #ffffff;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-
+.portfolio-item-first {
+    width: calc((100%-48px) / 3);
+}
+.portfolio-div-card {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .released-product {
     font-weight: 500;
     font-size: 20px;
@@ -319,6 +342,7 @@ margin-left: auto;
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: start;
+    
 }
 
 .product-direction {
@@ -335,8 +359,6 @@ margin-left: auto;
 .ending-section {
     background-color: #2e2f42;
     padding: 100px 0;
-
-
 }
 .logo-footer {
     display: inline-block;
